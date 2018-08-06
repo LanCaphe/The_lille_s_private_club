@@ -13,6 +13,8 @@ end
 group :production do
   gem 'pg', '>= 0.18', '< 2.0'
 end
+# Crypter MDP
+gem 'bcrypt', '3.1.12'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
