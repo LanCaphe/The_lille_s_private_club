@@ -15,6 +15,8 @@ group :production do
 end
 # Crypter MDP
 gem 'bcrypt', '3.1.12'
+#for test
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets

@@ -10,7 +10,7 @@ class SessionsController < ApplicationController
 
         else
         #rafraichir et ajouter un message d'erreur
-        flash[:danger] = "L'email et/ou le mot de passe n'est pas correct" # Not quite right!
+        flash.now[:danger] = "L'email et/ou le mot de passe n'est pas correct" # Not quite right!
         render 'new'
 	   end
     end
@@ -18,3 +18,4 @@ class SessionsController < ApplicationController
 	def destroy
   	end
 end
+    
