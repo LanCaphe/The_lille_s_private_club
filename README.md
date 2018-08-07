@@ -1,24 +1,7 @@
-# README
+Travail dans le cadre de THP sur les tests dans le cadre d'applications rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Création du site d'un club privé affichant la liste de ses membres une fois loggué.
 
-Things you may want to cover:
+N'oubliez pas le bundle install.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Lien heroku dans le git hub
